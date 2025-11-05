@@ -16,7 +16,6 @@ public:
     int readCount(){
         return books-unreadBooks;
     }
-
 };
 
 class Me : public Coder , public Reader{
